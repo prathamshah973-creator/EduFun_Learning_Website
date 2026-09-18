@@ -84,5 +84,4 @@ edufun-educational-website/
 ├── faq.html
 ├── contact.html
 ├── style.css
-├── script.js
 └── images/
