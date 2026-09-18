@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Instructors | EduFun</title>
+<link rel="stylesheet" href="style4.css">
+<style>
+  .instructors-section .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+.instructors-section .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;       
+  object-fit: cover;        
+  margin-bottom: 15px;
+  padding: 5px;
+  background: linear-gradient(135deg, #4CAF50, #81C784); 
+  border: 4px solid white; 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.instructors-section .card img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+</style>
+</head>
+<body>
+
+<header>
+   <div class="logo-container">
+      <h1 class="logo-text">EduFun</h1>
+      <p class="tagline"><i>Think. Create. Succeed.</i></p>
+    </div>
+
+    <details class="nav-toggle" role="group">
+      <summary class="hamburger" aria-label="Toggle navigation" role="button">
+        <span></span><span></span><span></span>
+      </summary>
+    </details>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="instructors.html" class="active">Instructors</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Meet Our Instructors</h1>
+</section>
+
+<section class="instructors-section">
+  <div class="grid">
+    <!-- Instructor 1 -->
+    <div class="card">
+      <img src="./ImagesEduFun/priyasharma.jpeg" alt="Dr. Priya Sharma, Data Science Expert" align="center">
+      <h3>Dr. Priya Sharma</h3>
+      <p>Expert in Data Science with 10+ years of teaching experience.</p>
+    </div>
+
+    <!-- Instructor 2 -->
+    <div class="card">
+      <img src="./ImagesEduFun/arjunpatel.jpeg" alt="Mr. Arjun Patel, Web Developer">
+      <h3>Mr. Arjun Patel</h3>
+      <p>Web Developer & UI/UX Mentor guiding students on real-world projects.</p>
+    </div>
+
+    <!-- Instructor 3 -->
+    <div class="card">
+      <img src="./ImagesEduFun/ananyaverma.jpeg" alt="Ms. Ananya Verma, Graphic Designer">
+      <h3>Ms. Ananya Verma</h3>
+      <p>Graphic Designer with strong creative background and hands-on experience.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 EduFun. All rights are reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EduFun | Contact</title>
+  <link rel="stylesheet" href="style4.css">
+  <style>
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      text-align: center;
+      transition: border 0.3s;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: #0a74da;
+    }
+
+    .contact-form button {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <h1 class="logo-text">EduFun</h1>
+      <p class="tagline"><i>Think. Create. Succeed.</i></p>
+    </div>
+
+    <details class="nav-toggle" role="group">
+      <summary class="hamburger" aria-label="Toggle navigation" role="button">
+        <span></span><span></span><span></span>
+      </summary>
+    </details>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="instructors.html">Instructors</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Contact Us</h1>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 EduFun. All rights are reserved.</p>
+  </footer>
+</body>
+</html>
