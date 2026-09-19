@@ -214,8 +214,8 @@ footer {
     padding: 6px 0;
   }
 
-  /* Show vertical menu ONLY when details tag is clicked open */
-  .nav-toggle[open] nav ul {
+ /* Show vertical menu ONLY when details tag is clicked open */
+  .nav-toggle[open] + nav ul {
     display: flex;
   }
 
@@ -237,17 +237,16 @@ footer {
   .card img { height: 120px; }
 }
 /* =========================================
-   DESKTOP FIX: ALWAYS SHOW MENU
+   DESKTOP VIEW: HIDE HAMBURGER, SHOW LINKS
    ========================================= */
 @media (min-width: 901px) {
-  /* Force the nav to show even if the details tag is closed */
-  .nav-toggle:not([open]) nav,
-  .nav-toggle nav {
-    display: block !important;
+  /* Completely hide the details/hamburger wrapper on desktop */
+  .nav-toggle {
+    display: none !important;
   }
   
-  /* Ensure the links stay in a horizontal row */
-  .nav-toggle nav ul {
+  /* Guarantee the links show horizontally */
+  nav ul {
     display: flex !important;
     flex-direction: row;
   }
